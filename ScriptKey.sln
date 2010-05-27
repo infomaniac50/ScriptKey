@@ -3,6 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{963A8E6B-C8B4-4513-B152-300CFC70E5C4}"
 	ProjectSection(SolutionItems) = preProject
+		BatchFileCopier.exe = BatchFileCopier.exe
 		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
 		ScriptKey.vsmdi = ScriptKey.vsmdi
 	EndProjectSection
