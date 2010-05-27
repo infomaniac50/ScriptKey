@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ScriptKeyCode.GeneralTrigger" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAEAAAACAAAAAAAAAAQAAA=</HashCode>
+      <FileName>ScriptKeyCode\GeneralTrigger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScriptKeyCode.InputTrigger" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ScriptKeyCode\InputTrigger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScriptKeyCode.KeyboardTrigger" Collapsed="true">
+    <Position X="5.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAgBAAEAQCCAAgEAAAEAEAAAAIAAAAAAIAAAAAAAAQ=</HashCode>
+      <FileName>ScriptKeyCode\KeyboardTrigger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScriptKeyCode.MouseButtonTrigger" Collapsed="true">
+    <Position X="3" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAgBABAQAAAAAAEAAAAAAAAAAAAAAAAIAAAAAACAAQ=</HashCode>
+      <FileName>ScriptKeyCode\MouseButtonTrigger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScriptKeyCode.MouseWheelTrigger" Collapsed="true">
+    <Position X="7.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgBAAAAAAAAACEACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ScriptKeyCode\MouseWheelTrigger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScriptKeyCode.TimerTrigger" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQgAAAAAAAAAAAEAAAAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>ScriptKeyCode\TimerTrigger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScriptKeyCode.TriggerFactory" Collapsed="true">
+    <Position X="10" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ScriptKeyCode\TriggerFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScriptKeyCode.EventDataParser" Collapsed="true">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAACAAABAAAAAAAAAAAAAAAAAAACAAgAAAAAAAAA=</HashCode>
+      <FileName>ScriptKeyCode\EventDataParser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScriptKeyCode.MalformedEventDataException" Collapsed="true">
+    <Position X="1.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAA=</HashCode>
+      <FileName>ScriptKeyCode\MalformedEventDataException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScriptKeyCode.InvalidKeyDataException" Collapsed="true">
+    <Position X="0.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ScriptKeyCode\InvalidKeyDataException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScriptKeyCode.MissingKeyDataException" Collapsed="true">
+    <Position X="2.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ScriptKeyCode\MissingKeyDataException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScriptKeyCode.ActionConverter" Collapsed="true">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAACAA=</HashCode>
+      <FileName>ActionConverter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="ScriptKeyCode.InputActions" Collapsed="true">
+    <Position X="10" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAI=</HashCode>
+      <FileName>ScriptKeyCode\InputActions.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ScriptKeyCode.WheelActions" Collapsed="true">
+    <Position X="11.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>ScriptKeyCode\WheelActions.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="ScriptKeyCode.TriggerFiredHandler" Collapsed="true">
+    <Position X="10" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>ScriptKeyCode\GeneralTrigger.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

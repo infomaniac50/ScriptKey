@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{39094772-6B6C-42EC-88B6-22577B620826}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ScriptKeyCode</RootNamespace>
+    <AssemblyName>InputLib</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <OutputPath>..\bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>..\bin\Release\InputLib.XML</DocumentationFile>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.DirectX.DirectInput, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="MouseKeyboardLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\My Components\MouseKeyboardLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Soopah.Xna.Input">
+      <HintPath>..\..\..\My Components\Soopah.Xna.Input.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Utility, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\My Components\Utility.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ScriptKeyCode\MissingKeyDataException.cs" />
+    <Compile Include="ScriptKeyCode\InvalidKeyDataException.cs" />
+    <Compile Include="ScriptKeyCode\EventDataParser.cs" />
+    <Compile Include="ScriptKeyCode\MalformedEventDataException.cs" />
+    <Compile Include="ScriptKeyCode\InputActions.cs" />
+    <Compile Include="ScriptKeyCode\WheelActions.cs" />
+    <Compile Include="API\EventTypes.cs" />
+    <Compile Include="ScriptKeyCode\GeneralTrigger.cs" />
+    <Compile Include="ScriptKeyCode\InputTrigger.cs" />
+    <Compile Include="InputLib\JoystickInput.cs" />
+    <Compile Include="InputLib\KeyboardInput.cs" />
+    <Compile Include="ScriptKeyCode\KeyboardTrigger.cs" />
+    <Compile Include="InputLib\MouseInput.cs" />
+    <Compile Include="ScriptKeyCode\MouseButtonTrigger.cs" />
+    <Compile Include="ScriptKeyCode\MouseWheelTrigger.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ScriptKeyCode\TimerTrigger.cs" />
+    <Compile Include="API\TriggerAttribute.cs" />
+    <Compile Include="ScriptKeyCode\TriggerFactory.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="API\InputLib.API.cd" />
+    <None Include="ScriptKeyCode\InputLib.ScriptKeyCode.cd" />
+    <None Include="InputLib\InputLib.InputLib.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

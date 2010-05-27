@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ScriptKeyCode.UserCode" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>UserCode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScriptKeyCode.CodeHost" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgACAACAAAAAAIAACEAAAAAAAAAgAIAAAAAADAAI=</HashCode>
+      <FileName>CodeHost.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScriptKeyCode.RemoteServer" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAACQAAgAAAAAAAQAAAAAEAAAABAAAAAA=</HashCode>
+      <FileName>RemoteServer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScriptKeyCode.RemoteObject" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RemoteObject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ScriptKeyCode.RemoteLoader" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAECAAAAAAIAAKAAAAAAAAAAAAIAAABAAAABA=</HashCode>
+      <FileName>RemoteLoader.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ScriptKeyCode.RemoteClientSponser" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RemoteClientSponser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ScriptKeyCode.RemoteClient" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAACQAACAAAAAAAACAAAAAAAAAAAAgCAAAAAAABAAA=</HashCode>
+      <FileName>RemoteClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScriptKeyCode.MacroCompiler" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAACAQAAAAAAAAAAAAAAAAAAIIAAAAAAAEA=</HashCode>
+      <FileName>MacroCompiler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScriptKeyCode.MacroCodeManager" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAQAAAAAAAQACAEAIIAGAAggAAAAAAAAAAAA=</HashCode>
+      <FileName>MacroCodeManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScriptKeyCode.MacroCode" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAASACAAMAAAAAAAAAAAAAgAAAAAAAAAAAI=</HashCode>
+      <FileName>MacroCode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SharpFactory.DynamicMethodDelegateFactory" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>DynamicMethodDelegateFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="ScriptKeyCode.ObjectMessage" Collapsed="true">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>ObjectContainer.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="ScriptKeyCode.IScript" Collapsed="true">
+    <Position X="2.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAACAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>IScript.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ScriptKeyCode.IRemoteObject" Collapsed="true">
+    <Position X="0.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IRemoteObject.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="ScriptKeyCode.CompilerStatus" Collapsed="true">
+    <Position X="0.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAQAAAAAAABAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CompilerStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="ScriptKeyCode.ObjectSentEventHandler" Collapsed="true">
+    <Position X="5.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ObjectSentEventHandler.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ScriptKeyCode.MessageSentEventHander" Collapsed="true">
+    <Position X="4" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MessageSentEventHander.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ScriptKeyCode.MacroErrorEventHandler" Collapsed="true">
+    <Position X="2.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MacroErrorEventHandler.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="SharpFactory.DynamicMethodDelegate" Collapsed="true">
+    <Position X="0.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DynamicMethodDelegateFactory.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>
