@@ -7,7 +7,7 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 
-namespace API
+namespace API.Output
 {
     /// <summary>
     /// Allows user code to output information to the screen.
@@ -21,10 +21,8 @@ namespace API
         public OutputForm()
         {
             InitializeComponent();
-        } 
+        }
         #endregion
-
-        
 
         #region Properties
         /// <summary>
@@ -41,7 +39,8 @@ namespace API
             {
                 txtOutput.Text = value;
             }
-        } 
+        }
         #endregion
     }
 }
+

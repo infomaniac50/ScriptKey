@@ -66,7 +66,7 @@
     <Content Include="Examples\Output\OutputWindow.skc">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <None Include="Examples\Output\Simulator.cs" />
+    <Compile Include="Examples\Output\Simulator.cs" />
     <None Include="Examples\Input\Joystick.cs" />
     <Content Include="Examples\Output\Simulator.skc">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -79,7 +79,7 @@
     </Content>
     <None Include="Examples\Triggers\MouseWheelTrigger.cs" />
     <None Include="Examples\Triggers\MouseButtonTrigger.cs" />
-    <Compile Include="Examples\Triggers\KeyboardTrigger.cs" />
+    <None Include="Examples\Triggers\KeyboardTrigger.cs" />
     <Content Include="Examples\Triggers\MouseWheelTrigger.skc">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

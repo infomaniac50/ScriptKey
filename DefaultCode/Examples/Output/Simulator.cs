@@ -8,30 +8,15 @@ namespace UserCode
     [Serializable()]
     public class UserCode
     {
-        private OutputWindow output = new OutputWindow();
-
-        [Trigger(Keys.W, InputActions.Up)]
-        public void SayHello()
+        public UserCode()
         {
-            output.WriteLine(AppDomain.CurrentDomain.FriendlyName);
+            System.Diagnostics.Process.Start("Notepad");
         }
 
-        [Trigger(Keys.S, InputActions.Up)]
-        public void ShowOutputWindow()
+        [Trigger(Keys.H,InputActions.Press)]
+        public void SendHelloWorld()
         {
-            output.Show();
-        }
-
-        [Trigger(Keys.E, InputActions.Up)]
-        public void ThrowException()
-        {
-            throw new Exception("Test Exception");
-        }
-
-        [Trigger(Keys.H, InputActions.Up)]
-        public void HideOutputWindow()
-        {
-            output.Hide();
+            MouseSimulator.SendKey(
         }
     }
 }

@@ -45,14 +45,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="OutputForm.cs">
+    <Compile Include="Control\Code.cs" />
+    <Compile Include="Output\Keyboard.cs" />
+    <Compile Include="Output\OutputForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="OutputForm.Designer.cs">
+    <Compile Include="Output\OutputForm.Designer.cs">
       <DependentUpon>OutputForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="OutputWindow.cs" />
-    <Compile Include="Simulator.cs" />
+    <Compile Include="Output\OutputWindow.cs" />
+    <Compile Include="Output\Mouse.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -62,9 +64,13 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="OutputForm.resx">
+    <EmbeddedResource Include="Output\OutputForm.resx">
       <DependentUpon>OutputForm.cs</DependentUpon>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="API.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

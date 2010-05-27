@@ -65,10 +65,10 @@
     <Compile Include="API\EventTypes.cs" />
     <Compile Include="ScriptKeyCode\GeneralTrigger.cs" />
     <Compile Include="ScriptKeyCode\InputTrigger.cs" />
-    <Compile Include="InputLib\JoystickInput.cs" />
-    <Compile Include="InputLib\KeyboardInput.cs" />
+    <Compile Include="API\Input\Joystick.cs" />
+    <Compile Include="API\Input\Keyboard.cs" />
     <Compile Include="ScriptKeyCode\KeyboardTrigger.cs" />
-    <Compile Include="InputLib\MouseInput.cs" />
+    <Compile Include="API\Input\Mouse.cs" />
     <Compile Include="ScriptKeyCode\MouseButtonTrigger.cs" />
     <Compile Include="ScriptKeyCode\MouseWheelTrigger.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -79,7 +79,6 @@
   <ItemGroup>
     <None Include="API\InputLib.API.cd" />
     <None Include="ScriptKeyCode\InputLib.ScriptKeyCode.cd" />
-    <None Include="InputLib\InputLib.InputLib.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

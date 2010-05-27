@@ -1,14 +1,35 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="API.TriggerAttribute" Collapsed="true">
-    <Position X="6.5" Y="1.25" Width="1.5" />
+    <Position X="5" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAA=</HashCode>
       <FileName>API\TriggerAttribute.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="API.Input.JoystickInput" Collapsed="true">
+    <Position X="3.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAEAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>API\JoystickInput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Input.KeyboardInput" Collapsed="true">
+    <Position X="5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgIAAAAAAAAAAAAAAAAAAEAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>API\KeyboardInput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Input.MouseInput" Collapsed="true">
+    <Position X="3.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAQAAAAAAIAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>API\MouseInput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Enum Name="API.EventTypes" Collapsed="true">
-    <Position X="6.5" Y="0.5" Width="1.5" />
+    <Position X="3.25" Y="3" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAgAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAEAAA=</HashCode>
       <FileName>API\EventTypes.cs</FileName>

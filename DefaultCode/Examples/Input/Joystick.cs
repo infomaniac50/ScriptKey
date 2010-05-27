@@ -29,8 +29,8 @@ namespace UserCode
                 output.WriteLine("Buttons:");
                 output.WriteLine(joy.DiagnosticsButtons);
                 output.WriteLine();
-
-
+                output.WriteLine("Thumbsticks:");
+                output.WriteLine(joy.DiagnosticsThumbSticks);
             }
             else
                 output.WriteLine("Joystick not connected.");

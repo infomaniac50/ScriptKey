@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 using System.Text;
 
-namespace API
+namespace API.Output
 {
     /// <summary>
     /// Shows output to the user.
@@ -11,7 +11,7 @@ namespace API
     public class OutputWindow
     {
         #region Fields
-        OutputForm outputform; 
+        OutputForm outputform;
         #endregion
 
         #region Constructors
@@ -22,7 +22,7 @@ namespace API
         {
             outputform = new OutputForm();
             Clear();
-        } 
+        }
         #endregion
 
         #region Methods
@@ -77,3 +77,4 @@ namespace API
         #endregion
     }
 }
+
