@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Windows.Forms;
-using InputLib;
 using API;
+using API.Input;
+using API.Output;
 using ScriptKeyCode;
 using Soopah.Xna.Input;
 namespace UserCode

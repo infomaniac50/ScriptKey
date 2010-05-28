@@ -5,6 +5,7 @@ using System.Text;
 using System.Windows.Forms;
 using MouseKeyboardLibrary;
 using API;
+using API.Input;
 namespace ScriptKeyCode
 {
     /// <summary>
@@ -25,7 +26,7 @@ namespace ScriptKeyCode
         public MouseWheelTrigger(WheelActions Action,bool ShouldHandle) : base(EventTypes.MouseWheel, ShouldHandle)
         {
             action = Action;
-            InputLib.MouseInput.Hook.MouseWheel += new MouseEventHandler(OnMouseWheel);
+            Mouse.Hook.MouseWheel += new MouseEventHandler(OnMouseWheel);
         }
 
         /// <summary>

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
-using InputLib;
 using API;
+using API.Output;
 using ScriptKeyCode;
 namespace UserCode
 {

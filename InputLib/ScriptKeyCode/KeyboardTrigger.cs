@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Windows.Forms;
 using API;
+using API.Input;
 using Utility;
 namespace ScriptKeyCode
 {
@@ -29,8 +30,8 @@ namespace ScriptKeyCode
             action = Action;
             key = KeyData;
             //InputLib.KeyboardInput.Hook.KeyPress += new KeyPressEventHandler(OnKeyPress);
-            InputLib.KeyboardInput.Hook.KeyDown += new KeyEventHandler(OnKeyDown);
-            InputLib.KeyboardInput.Hook.KeyUp += new KeyEventHandler(OnKeyUp);            
+            Keyboard.Hook.KeyDown += new KeyEventHandler(OnKeyDown);
+            Keyboard.Hook.KeyUp += new KeyEventHandler(OnKeyUp);            
         }
 
         /// <summary>

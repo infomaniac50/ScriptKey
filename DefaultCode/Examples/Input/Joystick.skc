@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Windows.Forms;
-using InputLib;
 using API;
+using API.Input;
+using API.Output;
 using ScriptKeyCode;
 using Soopah.Xna.Input;
 namespace UserCode
@@ -29,8 +30,8 @@ namespace UserCode
                 output.WriteLine("Buttons:");
                 output.WriteLine(joy.DiagnosticsButtons);
                 output.WriteLine();
-
-
+                output.WriteLine("Thumbsticks:");
+                output.WriteLine(joy.DiagnosticsThumbSticks);
             }
             else
                 output.WriteLine("Joystick not connected.");

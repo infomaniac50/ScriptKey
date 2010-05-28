@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Windows.Forms;
 using API;
+using API.Input;
 using Utility;
 namespace ScriptKeyCode
 {
@@ -28,8 +29,8 @@ namespace ScriptKeyCode
         {
             button = Button;
             action = Action;
-            InputLib.MouseInput.Hook.MouseDown += new MouseEventHandler(OnMouseDown);
-            InputLib.MouseInput.Hook.MouseUp += new MouseEventHandler(OnMouseUp);
+            Mouse.Hook.MouseDown += new MouseEventHandler(OnMouseDown);
+            Mouse.Hook.MouseUp += new MouseEventHandler(OnMouseUp);
         }
 
         /// <summary>
