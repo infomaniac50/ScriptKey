@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
-using InputLib;
 using API;
+using API.Output;
 using ScriptKeyCode;
 namespace UserCode
 {
@@ -10,28 +10,16 @@ namespace UserCode
     {
         private OutputWindow output = new OutputWindow();
 
-        [Trigger(Keys.W, InputActions.Up)]
-        public void SayHello()
+        public UserCode()
         {
-            output.WriteLine(AppDomain.CurrentDomain.FriendlyName);
-        }
-
-        [Trigger(Keys.S, InputActions.Up)]
-        public void ShowOutputWindow()
-        {
+            output = new OutputWindow();
             output.Show();
         }
 
-        [Trigger(Keys.E, InputActions.Up)]
-        public void ThrowException()
+        [Trigger(1000)]
+        public void TimerElapsed()
         {
-            throw new Exception("Test Exception");
-        }
-
-        [Trigger(Keys.H, InputActions.Up)]
-        public void HideOutputWindow()
-        {
-            output.Hide();
+            output.WriteLine("The timer fired at " + DateTime.Now.ToShortTimeString());
         }
     }
 }

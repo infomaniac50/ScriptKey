@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
-using InputLib;
 using API;
+using API.Output;
 using ScriptKeyCode;
 namespace UserCode
 {
@@ -10,28 +10,22 @@ namespace UserCode
     {
         private OutputWindow output = new OutputWindow();
 
-        [Trigger(Keys.W, InputActions.Up)]
-        public void SayHello()
+        public UserCode()
         {
-            output.WriteLine(AppDomain.CurrentDomain.FriendlyName);
-        }
-
-        [Trigger(Keys.S, InputActions.Up)]
-        public void ShowOutputWindow()
-        {
+            output = new OutputWindow();
             output.Show();
         }
 
-        [Trigger(Keys.E, InputActions.Up)]
-        public void ThrowException()
+        [Trigger(WheelActions.Up)]
+        public void MouseWheelUp()
         {
-            throw new Exception("Test Exception");
+            output.WriteLine("Mouse wheel was rolled up.");
         }
 
-        [Trigger(Keys.H, InputActions.Up)]
-        public void HideOutputWindow()
+        [Trigger(WheelActions.Down)]
+        public void MouseWheelDown()
         {
-            output.Hide();
-        }
+            output.WriteLine("Mouse wheel was rolled down.");
+        }       
     }
 }

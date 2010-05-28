@@ -1,37 +1,27 @@
 ﻿using System;
 using System.Windows.Forms;
-using InputLib;
 using API;
+using API.Output;
 using ScriptKeyCode;
 namespace UserCode
 {
     [Serializable()]
     public class UserCode
     {
-        private OutputWindow output = new OutputWindow();
+        OutputWindow output;
 
-        [Trigger(Keys.W, InputActions.Up)]
-        public void SayHello()
+        public UserCode()
         {
-            output.WriteLine(AppDomain.CurrentDomain.FriendlyName);
-        }
-
-        [Trigger(Keys.S, InputActions.Up)]
-        public void ShowOutputWindow()
-        {
+            output = new OutputWindow();
             output.Show();
         }
 
-        [Trigger(Keys.E, InputActions.Up)]
-        public void ThrowException()
+        [Trigger(MouseButtons.Left,InputActions.Press)]
+        public void SayHelloWorld()
         {
-            throw new Exception("Test Exception");
+            output.WriteLine("Hello World");
         }
 
-        [Trigger(Keys.H, InputActions.Up)]
-        public void HideOutputWindow()
-        {
-            output.Hide();
-        }
+
     }
 }
