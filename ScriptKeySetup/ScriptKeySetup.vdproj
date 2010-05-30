@@ -903,6 +903,17 @@
             "Property" = "8:ProgramMenuFolder"
                 "Folders"
                 {
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_8CA3790FF47B4AD48FE39FAA64B618CD"
+                    {
+                    "Name" = "8:ScriptKey"
+                    "AlwaysCreate" = "11:FALSE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_D4E0E8219A4740CEB96149233BE32011"
+                        "Folders"
+                        {
+                        }
+                    }
                 }
             }
             "{3C67513D-01DD-4637-8A68-80971EB9504F}:_F1712DA3C2834DB0BBD08F2ED825C45D"
@@ -933,15 +944,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:ScriptKey"
-        "ProductCode" = "8:{4A4797EB-973B-43A4-B5F5-2352E9BA1B9A}"
-        "PackageCode" = "8:{44E25334-1922-4343-B726-29DCE1DB187B}"
+        "ProductCode" = "8:{6175DE65-3152-4C17-9170-7A8FF0ABE331}"
+        "PackageCode" = "8:{07515F31-269D-40E9-A630-167371F845AE}"
         "UpgradeCode" = "8:{F5DFAA1D-E8A9-43F1-96AD-704F264AFB44}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:FALSE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:1.0.1"
+        "ProductVersion" = "8:1.0.2"
         "Manufacturer" = "8:Derek Chafin"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
@@ -1054,6 +1065,34 @@
         }
         "Shortcut"
         {
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_C14AD536EB884592A41C264152795087"
+            {
+            "Name" = "8:ScriptKey"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:32512"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_9447E9321DCE4B22BC16B88FD213C4C4"
+            "Folder" = "8:_1CE13B3974334EA4905A6969F6167D5D"
+            "WorkingFolder" = "8:_F1712DA3C2834DB0BBD08F2ED825C45D"
+            "Icon" = "8:_9447E9321DCE4B22BC16B88FD213C4C4"
+            "Feature" = "8:"
+            }
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_D3DCF422C48D45E6BCBC3984C3D72699"
+            {
+            "Name" = "8:ScriptKey"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:32512"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_9447E9321DCE4B22BC16B88FD213C4C4"
+            "Folder" = "8:_8CA3790FF47B4AD48FE39FAA64B618CD"
+            "WorkingFolder" = "8:_F1712DA3C2834DB0BBD08F2ED825C45D"
+            "Icon" = "8:_9447E9321DCE4B22BC16B88FD213C4C4"
+            "Feature" = "8:"
+            }
         }
         "UserInterface"
         {
