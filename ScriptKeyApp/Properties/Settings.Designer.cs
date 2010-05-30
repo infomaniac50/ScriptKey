@@ -46,5 +46,17 @@ namespace ScriptKeyApp.Properties {
                 this["MinimizeToTray"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool ShowErrors {
+            get {
+                return ((bool)(this["ShowErrors"]));
+            }
+            set {
+                this["ShowErrors"] = value;
+            }
+        }
     }
 }

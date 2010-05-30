@@ -184,9 +184,16 @@ namespace ScriptKeyApp
         private void Form1_Load(object sender, EventArgs e)
         {
             LogWriter.FileName = "Debug.log";
-            LogWriter.ClearLog();
+            if (!Properties.Settings.Default.ShowErrors)
+                LogWriter.ClearLog();
+            else
+                btnViewErrorLog.Enabled = true;
+
+            Properties.Settings.Default.ShowErrors = false;
+
             Application.ThreadException += new System.Threading.ThreadExceptionEventHandler(Application_ThreadException);
             AppDomain.CurrentDomain.UnhandledException += new UnhandledExceptionEventHandler(CurrentDomain_UnhandledException);
+
             LoadExamples();
             List<string> keys = new List<string>();
 
@@ -208,11 +215,15 @@ namespace ScriptKeyApp
         void CurrentDomain_UnhandledException(object sender, UnhandledExceptionEventArgs e)
         {
             LogWriter.WriteEntry(((Exception)e.ExceptionObject).ToString(), true, TraceEventType.Critical);
+            btnViewErrorLog.Enabled = true;
+            Properties.Settings.Default.ShowErrors = true;
         }
 
         void Application_ThreadException(object sender, System.Threading.ThreadExceptionEventArgs e)
         {
-            LogWriter.WriteEntry(e.Exception.ToString(), true, TraceEventType.Critical);            
+            LogWriter.WriteEntry(e.Exception.ToString(), true, TraceEventType.Critical);
+            btnViewErrorLog.Enabled = true;
+            Properties.Settings.Default.ShowErrors = true;
         }
 
         private void OnErrorOccured(Exception ex)
@@ -259,7 +270,8 @@ namespace ScriptKeyApp
                 case CompilerStatus.AppError:
                     SetStatusError("Application Error");
                     lblCompileStatus.Image = Properties.Resources.compile_unknown;
-                    LogWriter.WriteEntry(MacroCompiler.Errors[0], true, TraceEventType.Error); 
+                    LogWriter.WriteEntry(MacroCompiler.Errors[0], true, TraceEventType.Error);
+                    btnViewErrorLog.Enabled = true; 
                     break;
                 case CompilerStatus.Error:
                     SetStatusError("Compiler Error");
