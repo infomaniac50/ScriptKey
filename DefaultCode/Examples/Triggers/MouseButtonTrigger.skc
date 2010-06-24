@@ -8,11 +8,11 @@ namespace UserCode
     [Serializable()]
     public class UserCode
     {
-        OutputWindow output;
+        OutputForm output;
 
         public UserCode()
         {
-            output = new OutputWindow();
+            output = new OutputForm();
             output.Show();
         }
 

@@ -8,7 +8,7 @@ namespace UserCode
     [Serializable()]
     public class UserCode
     {
-        private OutputWindow output = new OutputWindow();
+        private OutputForm output = new OutputForm();
 
         [Trigger(Keys.W, InputActions.Up)]
         public void SayHello()
