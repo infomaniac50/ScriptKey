@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using System.IO;
-using Utility;
+
 using System.Windows.Forms;
 using System.Diagnostics;
 namespace ScriptKeyCode

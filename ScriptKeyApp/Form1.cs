@@ -7,7 +7,7 @@ using System.Text;
 using System.Windows.Forms;
 using ScriptKeyCode;
 using System.IO;
-using Utility;
+
 using DerekChafin.Logging;
 namespace ScriptKeyApp
 {

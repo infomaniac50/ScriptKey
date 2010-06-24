@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 using System.Text;
 using System.Text.RegularExpressions;
-using Utility;
+
 namespace ScriptKeyCode
 {
     /// <summary>
@@ -109,7 +109,7 @@ namespace ScriptKeyCode
             actionstring = actionstring.Trim().ToLower();
 
             //capitalize the string
-            actionstring = Formatting.CapitalizeString(actionstring);
+            actionstring = System.Globalization.CultureInfo.CurrentCulture.TextInfo.ToTitleCase(actionstring);
 
             //get the enum value that matches the action string
             InputActions action = (InputActions)System.Enum.Parse(typeof(InputActions), actionstring);

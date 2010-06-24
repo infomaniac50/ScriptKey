@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using API;
 using System.Windows.Forms;
-using Utility;
+
 namespace ScriptKeyCode
 {
     /// <summary>

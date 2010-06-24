@@ -7,7 +7,8 @@ using System.Text;
 using System.Windows.Forms;
 using ScriptKeyApp.Properties;
 using System.IO;
-using Utility;
+using ScriptKeyCode;
+
 namespace ScriptKeyApp
 {
     public partial class ReferenceAssembliesForm : Form
@@ -24,7 +25,7 @@ namespace ScriptKeyApp
         {
             if (AssemblyFileDialog.ShowDialog() == DialogResult.OK)
             {
-                if (Information.IsDotNetAssembly(AssemblyFileDialog.FileName))
+                if (Util.IsDotNetAssembly(AssemblyFileDialog.FileName))
                     AssembliesListBox.Items.Add(Path.GetFileName(AssemblyFileDialog.FileName));
                 else
                     MessageBox.Show("The file is not a .NET assembly.");
