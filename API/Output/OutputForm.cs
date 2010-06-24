@@ -12,7 +12,7 @@ namespace API.Output
     /// <summary>
     /// Allows user code to output information to the screen.
     /// </summary>
-    internal partial class OutputForm : Form
+    public partial class OutputForm : Form
     {
         #region Constructors
         /// <summary>
@@ -21,6 +21,41 @@ namespace API.Output
         public OutputForm()
         {
             InitializeComponent();
+        }
+        #endregion
+
+        #region Methods
+        /// <summary>
+        /// Writes the specified value followed by a newline character to the output.
+        /// </summary>
+        /// <param name="Value">The value to write.</param>
+        public void WriteLine(string Value)
+        {
+            Write(Value + "\r\n");
+        }
+
+        /// <summary>
+        /// Writes a newline character to the output.
+        /// </summary>
+        public void WriteLine()
+        {
+            WriteLine("");
+        }
+        /// <summary>
+        /// Writes the specified value to the output.
+        /// </summary>
+        /// <param name="Value">The value to write.</param>
+        public void Write(string Value)
+        {
+            OutputText += Value;
+        }
+
+        /// <summary>
+        /// Clears the output.
+        /// </summary>
+        public void Clear()
+        {
+            OutputText = "";
         }
         #endregion
 
@@ -40,6 +75,9 @@ namespace API.Output
                 txtOutput.Text = value;
             }
         }
+
+
+
         #endregion
     }
 }

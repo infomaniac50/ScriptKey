@@ -50,7 +50,6 @@
     <Compile Include="Output\OutputForm.Designer.cs">
       <DependentUpon>OutputForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Output\OutputWindow.cs" />
     <Compile Include="Output\Mouse.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
