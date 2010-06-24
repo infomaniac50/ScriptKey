@@ -70,15 +70,12 @@
     <Compile Include="MacroCode.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RemoteLoader.cs" />
+    <Compile Include="Util.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\InputLib\InputLib.csproj">
       <Project>{39094772-6B6C-42EC-88B6-22577B620826}</Project>
       <Name>InputLib</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Utility\Utility.csproj">
-      <Project>{32139276-BF24-4C69-9C57-04A34E5B61D5}</Project>
-      <Name>Utility</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

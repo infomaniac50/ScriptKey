@@ -75,10 +75,6 @@
       <Project>{F419622F-4D82-40A6-B4FB-3FE36579F018}</Project>
       <Name>MouseKeyboardLibrary</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Utility\Utility.csproj">
-      <Project>{32139276-BF24-4C69-9C57-04A34E5B61D5}</Project>
-      <Name>Utility</Name>
-    </ProjectReference>
     <ProjectReference Include="..\xnadirectinput\Soopah.Xna.Input.csproj">
       <Project>{9B12C354-D439-401C-84B0-6EAF05D106E5}</Project>
       <Name>Soopah.Xna.Input</Name>

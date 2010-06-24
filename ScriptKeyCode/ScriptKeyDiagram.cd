@@ -3,14 +3,14 @@
   <Class Name="ScriptKeyCode.UserCode" Collapsed="true">
     <Position X="4" Y="2.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAgIAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>UserCode.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ScriptKeyCode.CodeHost" Collapsed="true">
     <Position X="0.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAgACAACAAAAAAIAACEAAAAAAAAAgAIAAAAAADAAI=</HashCode>
+      <HashCode>AAAAgACAACAAAAAAIAACEAAAAAAAAAgAYAAAAAADAAI=</HashCode>
       <FileName>CodeHost.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -55,7 +55,7 @@
   <Class Name="ScriptKeyCode.MacroCompiler" Collapsed="true">
     <Position X="0.5" Y="1.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAEAAACAQAAAAAAAAAAAAAAAAAAIIAAAAAAAEA=</HashCode>
+      <HashCode>AAAAAAAEAAACAQAAAAAAAAAAAAIAAAAAIIAIAAAAAEA=</HashCode>
       <FileName>MacroCompiler.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -78,6 +78,13 @@
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
       <FileName>DynamicMethodDelegateFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScriptKeyCode.Util">
+    <Position X="6.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Struct Name="ScriptKeyCode.ObjectMessage" Collapsed="true">

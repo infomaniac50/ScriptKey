@@ -22,8 +22,6 @@ Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ScriptKeySetup", "ScriptKey
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScriptKeyHelp", "ScriptKeyHelp\ScriptKeyHelp.csproj", "{8E1A044A-833B-4BC5-9C3C-83943A22B821}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utility", "Utility\Utility.csproj", "{32139276-BF24-4C69-9C57-04A34E5B61D5}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logging", "Logging\Logging.csproj", "{63BFBE58-4745-4AC7-A83D-335FC5D350CD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MouseKeyboardLibrary", "MouseKeyboardLibrary\MouseKeyboardLibrary.csproj", "{F419622F-4D82-40A6-B4FB-3FE36579F018}"
@@ -84,12 +82,6 @@ Global
 		{8E1A044A-833B-4BC5-9C3C-83943A22B821}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8E1A044A-833B-4BC5-9C3C-83943A22B821}.Setup|Any CPU.ActiveCfg = Release|Any CPU
 		{8E1A044A-833B-4BC5-9C3C-83943A22B821}.Setup|Any CPU.Build.0 = Release|Any CPU
-		{32139276-BF24-4C69-9C57-04A34E5B61D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{32139276-BF24-4C69-9C57-04A34E5B61D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{32139276-BF24-4C69-9C57-04A34E5B61D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{32139276-BF24-4C69-9C57-04A34E5B61D5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{32139276-BF24-4C69-9C57-04A34E5B61D5}.Setup|Any CPU.ActiveCfg = Release|Any CPU
-		{32139276-BF24-4C69-9C57-04A34E5B61D5}.Setup|Any CPU.Build.0 = Release|Any CPU
 		{63BFBE58-4745-4AC7-A83D-335FC5D350CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{63BFBE58-4745-4AC7-A83D-335FC5D350CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63BFBE58-4745-4AC7-A83D-335FC5D350CD}.Release|Any CPU.ActiveCfg = Release|Any CPU

@@ -161,10 +161,6 @@
       <Project>{2A659168-0DAC-4730-843E-8384C40E9487}</Project>
       <Name>ScriptKeyCode</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Utility\Utility.csproj">
-      <Project>{32139276-BF24-4C69-9C57-04A34E5B61D5}</Project>
-      <Name>Utility</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\information-frame.png" />

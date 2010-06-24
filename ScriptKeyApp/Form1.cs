@@ -121,7 +121,7 @@ namespace ScriptKeyApp
 
         private void LoadExamples()
         {
-            string[] files = Directory.GetFiles(Path.Combine(Information.ExecutableDirectory, "Examples\\"), "*.skc", SearchOption.AllDirectories);
+            string[] files = Directory.GetFiles(Path.Combine(Application.StartupPath, "Examples\\"), "*.skc", SearchOption.AllDirectories);
 
             foreach (string file in files)
             {
@@ -386,7 +386,7 @@ namespace ScriptKeyApp
 
         private void btnOpenHelp_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start(Path.Combine(Information.ExecutableDirectory, "Help\\ScriptKey Help.chm"));
+            System.Diagnostics.Process.Start(Path.Combine(Application.StartupPath , "Help\\ScriptKey Help.chm"));
         }
         #endregion
         #endregion
