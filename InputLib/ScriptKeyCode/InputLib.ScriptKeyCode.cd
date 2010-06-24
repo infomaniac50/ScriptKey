@@ -17,28 +17,28 @@
   <Class Name="ScriptKeyCode.KeyboardTrigger" Collapsed="true">
     <Position X="5.25" Y="3.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AgAgBAAEAQCCAAgEAAAEAEAAAAIAAAAAAIAAAAAAAAQ=</HashCode>
+      <HashCode>AgAABAAEAQCCAAgEAAAEAEAAAAIAAAAAAIAAAAAAAAQ=</HashCode>
       <FileName>ScriptKeyCode\KeyboardTrigger.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ScriptKeyCode.MouseButtonTrigger" Collapsed="true">
     <Position X="3" Y="3.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AEAgBABAQAAAAAAEAAAAAAAAAAAAAAAAIAAAAAACAAQ=</HashCode>
+      <HashCode>AEAABABAQAAAAAAEAAAAAAAAAAAAAAAAIAAAAAACAAQ=</HashCode>
       <FileName>ScriptKeyCode\MouseButtonTrigger.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ScriptKeyCode.MouseWheelTrigger" Collapsed="true">
     <Position X="7.5" Y="3.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAgBAAAAAAAAACEACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAABAAAAAAAAACEACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>ScriptKeyCode\MouseWheelTrigger.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ScriptKeyCode.TimerTrigger" Collapsed="true">
     <Position X="0.75" Y="1.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAQgAAAAAAAAAAAEAAAAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <HashCode>AAQAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
       <FileName>ScriptKeyCode\TimerTrigger.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -52,7 +52,7 @@
   <Class Name="ScriptKeyCode.EventDataParser" Collapsed="true">
     <Position X="11.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAIAACAAABAAAAAAAAAAAAAAAAAAACAAgAAAAAAAAA=</HashCode>
+      <HashCode>AAAIAACABAAAAAQAAAAAAAAAAAAAAACAAgAAAAAAAAA=</HashCode>
       <FileName>ScriptKeyCode\EventDataParser.cs</FileName>
     </TypeIdentifier>
   </Class>

@@ -54,7 +54,5 @@ namespace ScriptKeyCode
                 ObjectSent.Invoke(Obj);
         }
         #endregion
-    }
-
-    
+    }    
 }

@@ -38,21 +38,19 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.DirectX.DirectInput, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
-    <Reference Include="MouseKeyboardLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\My Components\MouseKeyboardLibrary.dll</HintPath>
+    <Reference Include="MouseKeyboardLibrary">
+      <HintPath>..\..\..\Components\MouseKeyboardLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Soopah.Xna.Input">
-      <HintPath>..\..\..\My Components\Soopah.Xna.Input.dll</HintPath>
+      <HintPath>..\..\..\Components\Soopah\Soopah.Xna.Input.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
-    <Reference Include="Utility, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\My Components\Utility.dll</HintPath>
+    <Reference Include="Utility">
+      <HintPath>..\..\..\Components\Derek Chafin\Utility.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

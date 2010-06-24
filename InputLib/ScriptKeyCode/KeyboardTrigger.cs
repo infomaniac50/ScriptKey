@@ -164,36 +164,6 @@ namespace ScriptKeyCode
         }
         #endregion
 
-        ///// <summary>
-        ///// Parses the specified event data.
-        ///// </summary>
-        ///// <param name="EventData">The event data.</param>
-        ///// <returns>A keyboard trigger that contains the event data.</returns>
-        //public static KeyboardTrigger Parse(string EventData)
-        //{
-        //    string[] keywords = EventDataParser.GetKeys(EventData);
-        //    InputActions action = EventDataParser.GetInputAction(EventData);
-
-
-
-        //    Keys keys = Keys.None;
-        //    string betterkeyword;
-        //    foreach (string keyword in keywords)
-        //    {
-        //        betterkeyword = Formatting.CapitalizeString(keyword.ToLower());
-
-        //        if (System.Enum.IsDefined(typeof(Keys), betterkeyword))
-        //            keys |= (Keys)System.Enum.Parse(typeof(Keys), betterkeyword);
-        //        else
-        //            throw new InvalidKeyDataException(betterkeyword, EventData);
-        //    }
-
-
-        //    KeyboardTrigger trigger = new KeyboardTrigger(keys, action);
-
-        //    return trigger;
-        //}
-
         /// <summary>
         /// Returns a <see cref="System.String"/> that represents this instance.
         /// </summary>

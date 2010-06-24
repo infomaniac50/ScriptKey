@@ -56,7 +56,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Logging">
-      <HintPath>..\..\..\My Components\Logging.dll</HintPath>
+      <HintPath>..\..\..\Components\Derek Chafin\Logging.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
