@@ -49,10 +49,6 @@
     <Reference Include="System.Runtime.Remoting" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
-    <Reference Include="Utility, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\My Components\Utility.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CompilerStatus.cs" />
@@ -79,6 +75,10 @@
     <ProjectReference Include="..\InputLib\InputLib.csproj">
       <Project>{39094772-6B6C-42EC-88B6-22577B620826}</Project>
       <Name>InputLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utility\Utility.csproj">
+      <Project>{32139276-BF24-4C69-9C57-04A34E5B61D5}</Project>
+      <Name>Utility</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

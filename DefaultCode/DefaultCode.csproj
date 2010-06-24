@@ -49,9 +49,6 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Windows.Forms" />
-    <Reference Include="Utility">
-      <HintPath>..\References\Utility.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <None Include="Examples\Untitled.cs" />
@@ -96,6 +93,10 @@
     <ProjectReference Include="..\InputLib\InputLib.csproj">
       <Project>{39094772-6B6C-42EC-88B6-22577B620826}</Project>
       <Name>InputLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utility\Utility.csproj">
+      <Project>{32139276-BF24-4C69-9C57-04A34E5B61D5}</Project>
+      <Name>Utility</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

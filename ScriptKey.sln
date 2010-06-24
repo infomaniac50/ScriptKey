@@ -22,19 +22,13 @@ Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ScriptKeySetup", "ScriptKey
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScriptKeyHelp", "ScriptKeyHelp\ScriptKeyHelp.csproj", "{8E1A044A-833B-4BC5-9C3C-83943A22B821}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "References", "References", "{8A3CF461-0E94-45EC-9112-5B2DFEF7667D}"
-	ProjectSection(SolutionItems) = preProject
-		References\Logging.dll = References\Logging.dll
-		References\Logging.pdb = References\Logging.pdb
-		References\Logging.XML = References\Logging.XML
-		References\MouseKeyboardLibrary.dll = References\MouseKeyboardLibrary.dll
-		References\MouseKeyboardLibrary.pdb = References\MouseKeyboardLibrary.pdb
-		References\Soopah.Xna.Input.dll = References\Soopah.Xna.Input.dll
-		References\Soopah.Xna.Input.pdb = References\Soopah.Xna.Input.pdb
-		References\Soopah.Xna.Input.XML = References\Soopah.Xna.Input.XML
-		References\Utility.dll = References\Utility.dll
-		References\Utility.XML = References\Utility.XML
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utility", "Utility\Utility.csproj", "{32139276-BF24-4C69-9C57-04A34E5B61D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logging", "Logging\Logging.csproj", "{63BFBE58-4745-4AC7-A83D-335FC5D350CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MouseKeyboardLibrary", "MouseKeyboardLibrary\MouseKeyboardLibrary.csproj", "{F419622F-4D82-40A6-B4FB-3FE36579F018}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Soopah.Xna.Input", "xnadirectinput\Soopah.Xna.Input.csproj", "{9B12C354-D439-401C-84B0-6EAF05D106E5}"
 EndProject
 Global
 	GlobalSection(SubversionScc) = preSolution
@@ -90,11 +84,32 @@ Global
 		{8E1A044A-833B-4BC5-9C3C-83943A22B821}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8E1A044A-833B-4BC5-9C3C-83943A22B821}.Setup|Any CPU.ActiveCfg = Release|Any CPU
 		{8E1A044A-833B-4BC5-9C3C-83943A22B821}.Setup|Any CPU.Build.0 = Release|Any CPU
+		{32139276-BF24-4C69-9C57-04A34E5B61D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32139276-BF24-4C69-9C57-04A34E5B61D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32139276-BF24-4C69-9C57-04A34E5B61D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32139276-BF24-4C69-9C57-04A34E5B61D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32139276-BF24-4C69-9C57-04A34E5B61D5}.Setup|Any CPU.ActiveCfg = Release|Any CPU
+		{32139276-BF24-4C69-9C57-04A34E5B61D5}.Setup|Any CPU.Build.0 = Release|Any CPU
+		{63BFBE58-4745-4AC7-A83D-335FC5D350CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63BFBE58-4745-4AC7-A83D-335FC5D350CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63BFBE58-4745-4AC7-A83D-335FC5D350CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63BFBE58-4745-4AC7-A83D-335FC5D350CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63BFBE58-4745-4AC7-A83D-335FC5D350CD}.Setup|Any CPU.ActiveCfg = Release|Any CPU
+		{63BFBE58-4745-4AC7-A83D-335FC5D350CD}.Setup|Any CPU.Build.0 = Release|Any CPU
+		{F419622F-4D82-40A6-B4FB-3FE36579F018}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F419622F-4D82-40A6-B4FB-3FE36579F018}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F419622F-4D82-40A6-B4FB-3FE36579F018}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F419622F-4D82-40A6-B4FB-3FE36579F018}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F419622F-4D82-40A6-B4FB-3FE36579F018}.Setup|Any CPU.ActiveCfg = Release|Any CPU
+		{F419622F-4D82-40A6-B4FB-3FE36579F018}.Setup|Any CPU.Build.0 = Release|Any CPU
+		{9B12C354-D439-401C-84B0-6EAF05D106E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B12C354-D439-401C-84B0-6EAF05D106E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B12C354-D439-401C-84B0-6EAF05D106E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B12C354-D439-401C-84B0-6EAF05D106E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B12C354-D439-401C-84B0-6EAF05D106E5}.Setup|Any CPU.ActiveCfg = Release|Any CPU
+		{9B12C354-D439-401C-84B0-6EAF05D106E5}.Setup|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{8A3CF461-0E94-45EC-9112-5B2DFEF7667D} = {963A8E6B-C8B4-4513-B152-300CFC70E5C4}
 	EndGlobalSection
 EndGlobal
