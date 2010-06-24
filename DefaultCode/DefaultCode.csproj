@@ -45,13 +45,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Soopah.Xna.Input">
-      <HintPath>..\..\..\My Components\Soopah.Xna.Input.dll</HintPath>
+      <HintPath>..\References\Soopah.Xna.Input.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Windows.Forms" />
-    <Reference Include="Utility, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\My Components\Utility.dll</HintPath>
+    <Reference Include="Utility">
+      <HintPath>..\References\Utility.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

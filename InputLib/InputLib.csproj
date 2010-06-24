@@ -38,20 +38,14 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.DirectX.DirectInput, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
-    <Reference Include="MouseKeyboardLibrary">
-      <HintPath>..\..\..\Components\MouseKeyboardLibrary.dll</HintPath>
-    </Reference>
-    <Reference Include="Soopah.Xna.Input">
-      <HintPath>..\..\..\Components\Soopah\Soopah.Xna.Input.dll</HintPath>
-    </Reference>
+    <Reference Include="MouseKeyboardLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Soopah.Xna.Input, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
-    <Reference Include="Utility">
-      <HintPath>..\..\..\Components\Derek Chafin\Utility.dll</HintPath>
-    </Reference>
+    <Reference Include="Utility, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ScriptKeyCode\MissingKeyDataException.cs" />
