@@ -75,9 +75,6 @@ namespace API.Output
                 txtOutput.Text = value;
             }
         }
-
-
-
         #endregion
     }
 }
