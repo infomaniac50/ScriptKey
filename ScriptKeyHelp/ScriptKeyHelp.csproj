@@ -43,7 +43,7 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PreBuildEvent>call "$(SolutionDir)BatchFileCopier.exe" "$(SolutionDir)Documentation" "*.chm" "false" "$(SolutionDir)ScriptKeyHelp\Help" ".chm"</PreBuildEvent>
+    <PreBuildEvent>call "$(SolutionDir)BatchFileCopier.exe" "$(SolutionDir)Documentation\Help" "*.chm" "false" "$(SolutionDir)ScriptKeyHelp\Help" ".chm"</PreBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
