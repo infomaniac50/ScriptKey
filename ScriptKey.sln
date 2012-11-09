@@ -28,11 +28,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MouseKeyboardLibrary", "Mou
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Soopah.Xna.Input", "xnadirectinput\Soopah.Xna.Input.csproj", "{9B12C354-D439-401C-84B0-6EAF05D106E5}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{3C00F6CB-B610-4316-85BA-063EF9CC3A4E}"
-	ProjectSection(SolutionItems) = preProject
-		Documentation\ScriptKey Help.chm = Documentation\ScriptKey Help.chm
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = ScriptKey.vsmdi
@@ -104,9 +99,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{3C00F6CB-B610-4316-85BA-063EF9CC3A4E} = {963A8E6B-C8B4-4513-B152-300CFC70E5C4}
 	EndGlobalSection
 	GlobalSection(SubversionScc) = preSolution
 		Svn-Managed = True
